@@ -9,7 +9,7 @@ form.addEventListener("submit", (event) => event.preventDefault());
 
 //function that gets data from the API Giphy.
 async function getGiphy(giphy) {
-  const response = await axios.get("http://api.giphy.com/v1/gifs/search", {
+  const response = await axios.get("https://api.giphy.com/v1/gifs/search", {
     params: {
       api_key: "FaF17auGsch79zegKCt1Oza09bl1GnGQ",
       q: giphy,
